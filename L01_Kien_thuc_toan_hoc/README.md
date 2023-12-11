@@ -1,8 +1,4 @@
-# Data_structure_and_Algorithms
-
-Repository này lưu trữ các cấu trúc dữ liệu và giải thuật từ cơ bản đến nâng cao
-
-Đầu tiên cần phải có kiến thức về toán học:
+<h1> Các kiến thức toán học cần phải biết </h1>
 
 1. Sàng số nguyên tố
 2. Ước chung lớn nhất, bội chung nhỏ nhất
