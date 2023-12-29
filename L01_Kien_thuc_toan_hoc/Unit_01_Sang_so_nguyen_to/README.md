@@ -35,8 +35,11 @@ void Sang()
 
     // Nếu không dùng for để set thì dùng hàm memset
     //menset(nt, true, sizeof(nt));
+    
 }
 ```
+
+Tổng quát chương trình như sau:
 
 ```C++
 #include <iostream>
@@ -71,7 +74,7 @@ int main() {
       cout << i << " ";
     }
   }
-
+  
   delete[] a;
 
   return 0;

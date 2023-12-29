@@ -31,6 +31,16 @@ void sang(){
     // Loại thủ công
     nt[0] = nt[1] = false;
 
+    // Duyệt từ 2 đến sqrt(MAX_N): 
+    for(int i = 2; i <= sqrt(MAX_N); i++){
+        if(nt[i]){
+            for(int j = i*i; j<= MAX_N; j+= i){ // Cần chú ý: tại sao j = i*i và j += i ???
+            // Nếu không biết câu trả lời thì đọc ở README
+                nt[j] = false;
+            }
+        }
+    }
+
     
 }
 

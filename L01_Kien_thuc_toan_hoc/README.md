@@ -1,6 +1,13 @@
 <h1> Các kiến thức toán học cần phải biết </h1>
 
-1. Sàng số nguyên tố
+<h2>1. Sàng số nguyên tố</h2>
+
+Dùng để liệt kê hoặc đếm các số nguyên tố nhỏ hơn hoặc bằng n
+Có thể dùng hàm nguyên tố để check nhưng độ phức tạp sẽ lớp hơn so với sàng số nguyên tố
+
+Ý tưởng: dùng 1 mảng để đánh dấu
+
+
 2. Ước chung lớn nhất, bội chung nhỏ nhất
 3. Lũy thừ nhị phân, Binary exponentiation
 4. Cấp số cộng, cấp số nhân
@@ -16,3 +23,4 @@
 14. Nghịch đảo modulo 2
 15. Start - bar technique, bài toán chia kẹo của Euclid
 16. Nguyên lý bù trừ 
+
