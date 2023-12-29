@@ -1,23 +1,30 @@
 <h1> Các kiến thức toán học cần phải biết </h1>
 
-<h2>1. Sàng số nguyên tố</h2>
+<h3>1. Sàng số nguyên tố Eratosthenes</h3>
 
 Dùng để liệt kê hoặc đếm các số nguyên tố nhỏ hơn hoặc bằng n
 Có thể dùng hàm nguyên tố để check nhưng độ phức tạp sẽ lớp hơn so với sàng số nguyên tố
 
-Ý tưởng: dùng 1 mảng để đánh dấu
+<h3>2. Ước chung lớn nhất, bội chung nhỏ nhất </h3>
+<h3>3. Lũy thừ nhị phân, Binary exponentiation </h3>
+<h3>4. Cấp số cộng, cấp số nhân </h3>
+<h3>5. Chỉnh hợp, tổ hợp, chỉnh hợp lặp </h3>
+<h3>6. Số Fibonacci </h3>
+<h3>7. Lý thuyết đồng dư </h3>
+<h3>8. Công thức Legendre </h3>
+<h3>9. Giải thuật Euclid mở rộng </h3>
+<h3>10. Nghịch đảo modulo </h3>
+<h3>11. Định lí Euclid, phi hàm Euclid </h3>
 
 
-2. Ước chung lớn nhất, bội chung nhỏ nhất
-3. Lũy thừ nhị phân, Binary exponentiation
-4. Cấp số cộng, cấp số nhân
-5. Chỉnh hợp, tổ hợp, chỉnh hợp lặp
-6. Số Fibonacci
-7. Lý thuyết đồng dư
-8. Công thức Legendre
-9. Giải thuật Euclid mở rộng
-10. Nghịch đảo modulo
-11. Định lí Euclid, phi hàm Euclid
+
+
+
+
+
+
+
+
 12. Công thức Legendre 2
 13. Giải thuật Euclid mở rộng 2
 14. Nghịch đảo modulo 2

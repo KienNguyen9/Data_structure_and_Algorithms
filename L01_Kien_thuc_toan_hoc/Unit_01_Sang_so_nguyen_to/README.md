@@ -35,6 +35,25 @@ void Sang()
 
     // Nếu không dùng for để set thì dùng hàm memset
     //menset(nt, true, sizeof(nt));
+
+    // Loại thủ công
+    nt[0] = nt[1] = false;
+
+    // Duyệt từ 2 đến sqrt(MAX_N): 
+    for(int i = 2; i <= sqrt(MAX_N); i++){
+        if(nt[i]){
+          /**
+           * Trong vòng for này: ta duyệt từ i*i chứ không phải i*2, Vì
+           * i*2 đã bị loại khi duyệt bội của số nguyên tố nhỏ hơn rồi
+           * VD khi duyệt bội của số nguyên tố 2 ta sẽ loại từ 2*2, đến 4+2=6, đến 6+2=8,...
+           * Khi duyệt đế bội số nguyên tố 3: số 6 đã bị loại trước đó rồi nên sẽ duyệt từ 3*3
+          */          
+          for(int j = i*i; j<= MAX_N; j+= i){ // Cần chú ý: tại sao j = i*i và j += i ???
+            nt[j] = false;
+          }
+        }
+    }
+
     
 }
 ```
@@ -80,3 +99,52 @@ int main() {
   return 0;
 }
 ```
+
+```c++
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+//Sàng số nguyên tố - chỉ dùng cho mảng có kích thức nhỏ hơn hoặc bằng 10^7 nếu lớn hơn sẽ bị tràng bộ nhớ STACK
+const int MAX_N = 10000001;
+bool nt[MAX_N]; // i : 0 -> 10^7
+
+
+void sang(){
+// Set tất cả các phần tử của nt[] là true
+    for(int i = 0; i < MAX_N; i++ ){
+        nt[i] = true;
+    }
+    // Hoặc không dùng for() có thể dùng hàm memset()
+    // memset(nt, true, sizeof(nt)); 
+
+    // Loại thủ công
+    nt[0] = nt[1] = false;
+
+    // Duyệt từ 2 đến sqrt(MAX_N): 
+    for(int i = 2; i <= sqrt(MAX_N); i++){
+        if(nt[i]){
+            for(int j = i*i; j<= MAX_N; j+= i){ // Cần chú ý: tại sao j = i*i và j += i ???
+            // Nếu không biết câu trả lời thì đọc ở README
+                nt[j] = false;
+            }
+        }
+    }
+
+    
+}
+
+int main()
+{
+    sang();
+    for(int i = 0; i<= 1000; i++)
+    {
+        if(nt[i]) cout << i << ' ';
+    } 
+    return 0;
+}
+```
+
+Kết quả của chương trình trên:
+
+![Alt text](image.png)

@@ -13,6 +13,7 @@
  * 
  */
 #include <iostream>
+#include <math.h>
 using namespace std;
 
 //Sàng số nguyên tố - chỉ dùng cho mảng có kích thức nhỏ hơn hoặc bằng 10^7 nếu lớn hơn sẽ bị tràng bộ nhớ STACK
@@ -46,5 +47,10 @@ void sang(){
 
 int main()
 {
+    sang();
+    for(int i = 0; i<= 1000; i++)
+    {
+        if(nt[i]) cout << i << ' ';
+    } 
     return 0;
 }
