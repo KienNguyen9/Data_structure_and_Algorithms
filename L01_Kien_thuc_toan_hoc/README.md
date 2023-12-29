@@ -2,8 +2,14 @@
 
 <h3>1. Sàng số nguyên tố Eratosthenes</h3>
 
+Thuật toán này tương đối đơn giản dễ hiểu và dễ cài đặt
+
 Dùng để liệt kê hoặc đếm các số nguyên tố nhỏ hơn hoặc bằng n
 Có thể dùng hàm nguyên tố để check nhưng độ phức tạp sẽ lớp hơn so với sàng số nguyên tố
+Sàng số nguyên tố chỉ áp dụng khi phải kiểm tra trên một lượng lớn số nguyên tố 
+còn chỉ kiểm tra 1 vài số thì không cần dùng đến sàng số nguyên tố 
+
+13'30
 
 <h3>2. Ước chung lớn nhất, bội chung nhỏ nhất </h3>
 <h3>3. Lũy thừ nhị phân, Binary exponentiation </h3>
