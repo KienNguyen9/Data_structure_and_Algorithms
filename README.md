@@ -20,3 +20,18 @@ Repository này lưu trữ các cấu trúc dữ liệu và giải thuật từ 
 14. Nghịch đảo modulo 2
 15. Start - bar technique, bài toán chia kẹo của Euclid
 16. Nguyên lý bù trừ 
+
+
+#  Datastructure and Algorithms 2024 
+    Sep-28-2024
+
+![alt text](image.png)
+## 1. C++ and STL  
+## 2. Important technique in progrmaming 
+    Two pointer technique 
+    Prefix array
+## Algorithms 
+## Data structure
+
+
+
